@@ -1,0 +1,37 @@
+body{
+    background-color:black
+ }
+ .header{
+   color:white
+ }
+ /* https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-template-columns1  FOR MORE STUDY */
+ .quote{
+   display: grid; 
+   grid-template-columns: auto auto auto auto;
+   gap:10px;
+   background-color: white;
+   color:BLACK
+   padding :10px;
+   align-items: center;
+ }
+ .quote blockquote{
+     text-align:center;
+     font-size:250%;
+ }
+ .bio > h1 {
+   color:white;
+   font-size:350%
+ }
+ .bio > p {
+   max-width: 40rem;
+    margin: 2rem auto;
+   color:white;
+    font-size: 1.2rem;
+   line-height: 1.4;
+ }
+ 
+ .bio >hr{
+   max-width: 40rem;
+ }
+ 
+ /* develop my wwahib */
